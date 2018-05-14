@@ -73,8 +73,7 @@ Another benefit of using the key is that you can refer to the url multiple times
 
 Images are almost the same as links, but have a bang prefix.
 
-Picture without alternate text:
-!(http://unsplash.it/500/500?random)
+It is possible to link to an image without alternate text, but resist the urge. Blind users won't get any benefit from that approach, so avoid it.
 
 Picture with alternate text:
 
@@ -84,5 +83,10 @@ Picture with both alternate text and a tooltip:
 
 ![Sweet Picture](http://unsplash.it/500/500?random "This is a tooltip for this picture")
 
+You can also use a key, just like a regular link:
+
+![Was this a fort?][2]
 
 [1]: https://github.com/jonrcrowell?tab=repositories
+
+[2]: http://unsplash.it/500/500?image=101
