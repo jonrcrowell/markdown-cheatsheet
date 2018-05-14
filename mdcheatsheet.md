@@ -250,5 +250,25 @@ Aligning content in the cells is accomplished by adjusting colons. I'm pretty su
 
 The last row is included to show that the headers follow the same alignment rules as the column below.
 
+## Check Boxes (Github flavored markdown)
+
+Github flavored markdown includes the ability to add checked or unchecked boxes. Add square brackets with a space between them at the beginning of a line to indicate an unchecked box, and replace the space with an `x` to indicate a checked box.
+
+Grocery List:
+
+[ ] Eggs
+
+[x] Coffee
+
+[ ] Milk
+
+[x] Ribeyes
+
+[ ] Bacon
+
+[ ] Onions
+
+[ ] Garlic
+
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
