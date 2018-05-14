@@ -111,7 +111,7 @@ Note that you can also use normal markdown inside of the alt-text brackets if yo
 
 [<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
 
-## List, nesting, bullets and numbers
+## Lists, nesting, bullets and numbers
 
 Unordered lists can be created by prefixing your lines of text with a hyphen, a plus sign, or an asterisk. I used a hyphen as a prefix for these soccer teams, but when I saved my file, prettier or some other plugin converted them to asterisks, which is fine with me.
 
@@ -119,7 +119,8 @@ Best teams of all time:
 
 * Flamengo
 * Barcelona
-* Sao Paulo
+* São Paulo
+* Santos
 * Conrinthians
 * Liverpool
 * Ajax
@@ -127,6 +128,7 @@ Best teams of all time:
 * Real Madrid
 * Juventus
 * Manchester United
+* Paris Saint Germain
 
 You can create nested lists by tabbing or spacing a bullet to the right. Markdown processors will vary the bullets between different levels.
 
@@ -173,6 +175,54 @@ _I'm also aware that Zico is not usually number 1, but it's my list._
 Mixing ordered and unordered lists is fine, but you can't include them at the same indentation level.
 
 I'm also not sure how to begin an ordered list at a number other than 1.
+
+## Horizontal Rules
+
+Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line with a line-break above. (If you have them under text without a line-break, they will turn the text into an h1. My formatting plugin prefers hyphens, and I do too.)
+
+---
+
+## Block Quotes
+
+Use the greater than symbol (**>**) prefix to create a block quote.
+
+> Ancora amparo. (_I am still learning._)
+>
+> -- **Michaelangelo**, when he was 87
+
+## Code Blocks
+
+You can create a code block with either indentation or with back-ticks.
+
+With indentation:
+
+    const dufus = "Homer";
+    const beer = "Duffs";
+    const add = (a, b) => { a + b };
+
+And with back-ticks, specifying js as the language:
+
+```js
+const dufus = "Homer";
+const beer = "Duffs";
+const add = (a, b) => {
+  a + b;
+};
+```
+
+You can also add a code block in-line by wrapping your code with single back-ticks:
+
+Einstein and Big Audio Dynamite both made the formula `e=mc2` famous.
+
+You can get all records in a table like so: `select * from myTable`
+
+Another cool thing you can do with code blocks that I saw in a Wes Bos video is to specify the language as **diff**. You can then show code that should be deleted with the code that should replace it:
+
+```diff
+const x = 100;
+- const y = 200;
++ const y = 300;
+```
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
