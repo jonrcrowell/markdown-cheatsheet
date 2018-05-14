@@ -2,11 +2,11 @@
 
 Text entered on multiple lines in your editor will appear on a single line in your markdown doc. You must entered two carriage returns for markdown to create a new paragraph.
 
-For example, the word "one", "two", "three", and "four" below are entered on separate lines in the text editor, but they appear on a single line in markdown:
+For example, the words "one", "two", "three", and "four" below are entered on separate lines in the text editor, but they appear on a single line in markdown:
 
 one
 two
-thre
+three
 four
 
 If the words are entered with two carriage returns, they appear on separate lines in Markdown:
@@ -68,5 +68,21 @@ For example:
 If you are interested checking out Jon Crowell's public commits, explore his [vast array of repos][1].
 
 Another benefit of using the key is that you can refer to the url multiple times in your document. Remember to [check out Jon's repos][1] at your leisure.
+
+# Images
+
+Images are almost the same as links, but have a bang prefix.
+
+Picture without alternate text:
+!(http://unsplash.it/500/500?random)
+
+Picture with alternate text:
+
+![Sweet Picture](http://unsplash.it/500/500?random)
+
+Picture with both alternate text and a tooltip:
+
+![Sweet Picture](http://unsplash.it/500/500?random "This is a tooltip for this picture")
+
 
 [1]: https://github.com/jonrcrowell?tab=repositories
