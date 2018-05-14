@@ -224,5 +224,32 @@ const x = 100;
 + const y = 300;
 ```
 
+## Tables
+
+Tables in markdown are really cool. Set them up by separating the table cells with pipes, and add a field indicators (|:---------|:-----------|) underneath the table header.
+
+| Sport      | GOAT           |
+| :--------- | :------------- |
+| Soccer     | Zico           |
+| Golf       | Tiger Woods    |
+| Basketball | Michael Jordan |
+| Hockey     | Wayne Gretzky  |
+
+Aligning content in the cells is accomplished by adjusting colons. I'm pretty sure that the previous sentence just guaranteed that this repo will appear in some non-markdown-related search results.
+
+* Left-aligned |:---------|
+* Centered |:---------:|
+* Right-aligned |---------:|
+
+| State      | Abbreviation | Population   |
+| :--------- | :----------: | -----------: |
+| Texas      | TX           | 29,862,596   |
+| California | CA           | 39,250,017   |
+| Wisconsin  | WI           | 5,778,708    |
+
+
+
+
+
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
