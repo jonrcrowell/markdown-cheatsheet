@@ -226,7 +226,7 @@ const x = 100;
 
 ## Tables
 
-Tables in markdown are really cool. Set them up by separating the table cells with pipes, and add a field indicators (|:---------|:-----------|) underneath the table header.
+Tables in markdown are really cool. Set them up by separating the table cells with pipes, and add field indicators `|:---------|:-----------|` underneath the table header.
 
 | Sport      | GOAT           |
 | :--------- | :------------- |
@@ -241,15 +241,14 @@ Aligning content in the cells is accomplished by adjusting colons. I'm pretty su
 * Centered |:---------:|
 * Right-aligned |---------:|
 
-| State      | Abbreviation | Population   |
-| :--------- | :----------: | -----------: |
-| Texas      | TX           | 29,862,596   |
-| California | CA           | 39,250,017   |
-| Wisconsin  | WI           | 5,778,708    |
+| State        | Abbreviation                            | Population            |
+| :----------- | :-------------------------------------: | --------------------: |
+| Texas        | TX                                      | 29,862,596            |
+| California   | CA                                      | 39,250,017            |
+| Wisconsin    | WI                                      | 5,778,708             |
+| Rhode Island | Rhode Island and Providence Plantations | 5,778,708,532,533,143 |
 
-
-
-
+The last row is included to show that the headers follow the same alignment rules as the column below.
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
