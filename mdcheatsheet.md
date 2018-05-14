@@ -28,3 +28,20 @@ This can be confusing. I follow a convention suggested by Wes Bos, and that is t
 ### Strikethrough
 
 Surround text with ~~double tildes~~ for strikethrough.
+
+## Headers
+
+Starting a line with one or more hashes will create headers. One hash "#" followed by a space and text creates an H1, two hashes for an H2 and so on.
+
+Examples:
+
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+Note that you do **_not_** need two carriage returns after a header to begin a paragraph on the next line.
+
+Also note that the H1 has a horizontal rule underneath it.
+
+And what I think is my final note regarding headers: you can create an H1 and and H2 by using double-underscores (the equals sign) for an H1 and underscores (the underscore sign, naturally) for an H2. You need to underline the header with at least 3 of these charaters to get it to work. I recommend not using this method to create headers -- use the hash instead, as it works for headers of all weights.
