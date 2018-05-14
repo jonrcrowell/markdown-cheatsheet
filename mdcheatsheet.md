@@ -106,8 +106,8 @@ Take the following two links, that are different sizes of the same image:
 Set the clickable image as the "link" part of the image link and the target larger image as the url:
 [![Cross on mountain: click to see larger](http://unsplash.it/50/50?image=1000)](http://unsplash.it/750/750?image=1000)
 
-Note that you can also use normal markdown inside of the alt-text brackets if you prefer:
-[![<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
+Note that you can also use normal markdown inside of the alt-text brackets if you prefer, but markdownlint will squawk at you for using inline-html:
+[[<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
