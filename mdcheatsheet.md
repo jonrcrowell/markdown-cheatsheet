@@ -75,7 +75,7 @@ If you are interested checking out Jon Crowell's public commits, explore his [va
 
 Another benefit of using the key is that you can refer to the url multiple times in your document. Remember to [check out Jon's repos][1] at your leisure.
 
-# Images
+## Images
 
 Images are almost the same as links, but have a bang prefix.
 
@@ -104,10 +104,75 @@ Take the following two links, that are different sizes of the same image:
 750 pixel square: <http://unsplash.it/750/750?image=1000>
 
 Set the clickable image as the "link" part of the image link and the target larger image as the url:
+
 [![Cross on mountain: click to see larger](http://unsplash.it/50/50?image=1000)](http://unsplash.it/750/750?image=1000)
 
 Note that you can also use normal markdown inside of the alt-text brackets if you prefer, but markdownlint will squawk at you for using inline-html:
-[[<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
+
+[<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
+
+## List, nesting, bullets and numbers
+
+Unordered lists can be created by prefixing your lines of text with a hyphen, a plus sign, or an asterisk. I used a hyphen as a prefix for these soccer teams, but when I saved my file, prettier or some other plugin converted them to asterisks, which is fine with me.
+
+Best teams of all time:
+
+* Flamengo
+* Barcelona
+* Sao Paulo
+* Conrinthians
+* Liverpool
+* Ajax
+* AC Milan
+* Real Madrid
+* Juventus
+* Manchester United
+
+You can create nested lists by tabbing or spacing a bullet to the right. Markdown processors will vary the bullets between different levels.
+
+### World Cup Winners
+
+_Only 8 countries have ever won the World Cup_
+
+* 5 Time Winners
+  * Brazil
+* 4 Time Winners
+  * Germany
+  * Italy
+* 3 Time Winners
+  * Nobody at the moment
+* 2 Time Winners
+  * Uruguay
+  * Argentina
+* 1 Time Winners
+  * England
+  * France
+  * Spain
+
+Ordered lists work the way you'd expect them to for the most part, although one really nice feature is that you don't have to specify the order, which means inserting new items or re-ording them is painless. Simply prefix each line by a number, conventionally **1.** and Markdown will take care of the rest.
+
+### Greatest players of all time
+
+1.  Zico
+2.  Pele
+3.  Maradona
+4.  Eusebio
+5.  Puskas
+6.  Messi
+7.  Cristiano Ronaldo
+8.  Ronaldinho
+9.  Garrincha
+10. Beckenbauer
+11. Rivelino
+12. Platini
+13. Zidane
+
+*And no, Beckham doesn't deserve to be on this list, so please don't ask.*
+_I'm also aware that Zico is not usually number 1, but it's my list._
+
+Mixing ordered and unordered lists is fine, but you can't include them at the same indentation level.
+
+I'm also not sure how to begin an ordered list at a number other than 1.
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
