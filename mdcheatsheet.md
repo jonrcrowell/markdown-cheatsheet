@@ -21,7 +21,7 @@ four
 
 ### Bold and Italics
 
-Surrounding text with asterisks or underscores will *italicize* or **bold** the text. A single *asterisk* or _underscore_ on either side of the text will italicize it, and two **asterisks** or __underscores__ on either side bolds the text.
+Surrounding text with asterisks or underscores will _italicize_ or **bold** the text. A single _asterisk_ or _underscore_ on either side of the text will italicize it, and two **asterisks** or **underscores** on either side bolds the text.
 
 This can be confusing. I follow a convention suggested by Wes Bos, and that is to always use **double asterisks** for bold and _single underscores_ for italic.
 
@@ -36,10 +36,15 @@ Starting a line with one or more hashes will create headers. One hash "#" follow
 Examples:
 
 # This is an H1
+
 ## This is an H2
+
 ### This is an H3
+
 #### This is an H4
+
 ##### This is an H5
+
 Note that you do **_not_** need two carriage returns after a header to begin a paragraph on the next line.
 
 Also note that the H1 has a horizontal rule underneath it.
@@ -47,6 +52,7 @@ Also note that the H1 has a horizontal rule underneath it.
 And what I think is my final note regarding headers: you can create an H1 and and H2 by using double-underscores (the equals sign) for an H1 and underscores (the underscore sign, naturally) for an H2. You need to underline the header with at least 3 of these charaters to get it to work. I recommend not using this method to create headers -- use the hash instead, as it works for headers of all weights.
 
 ## Links
+
 Turning any url into a clickable link is easy. Just wrap it in angle brackets.
 
 http://www.stonegiantstudio.com
@@ -87,6 +93,18 @@ You can also use a key, just like a regular link:
 
 ![Was this a fort?][2]
 
-[1]: https://github.com/jonrcrowell?tab=repositories
+### Linking thumbnails to full-size images
 
+This technique works for any two images, but is useful in the case that you want to set up a thumbnail that can be clicked to display a larger version fo the image.
+
+Take the following two links, that are different sizes of the same image:
+
+50 pixel square: <http://unsplash.it/50/50?image=1000>
+
+750 pixel square: <http://unsplash.it/750/750?image=1000>
+
+Set the clickable image as the "link" part of the image link and the target larger image as the url:
+[![](http://unsplash.it/50/50?image=1000)](http://unsplash.it/750/750?image=1000)
+
+[1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
