@@ -45,3 +45,28 @@ Note that you do **_not_** need two carriage returns after a header to begin a p
 Also note that the H1 has a horizontal rule underneath it.
 
 And what I think is my final note regarding headers: you can create an H1 and and H2 by using double-underscores (the equals sign) for an H1 and underscores (the underscore sign, naturally) for an H2. You need to underline the header with at least 3 of these charaters to get it to work. I recommend not using this method to create headers -- use the hash instead, as it works for headers of all weights.
+
+## Links
+Turning any url into a clickable link is easy. Just wrap it in angle brackets.
+
+http://www.stonegiantstudio.com
+
+If you want to create a link that has clickable descriptive text, put the text in square brackets before the link in parens.
+
+[A plethora of technical questions and answers](http://stackoverflow.com)
+
+_Did you say "plethora" jefe?_
+
+You can also add a tooltip by including text in quotes after the url:
+
+[Twitter](http://twitter.com "Follow the world in what used to be 40 character chunks")
+
+If your urls are long, and you don't want to include them inline, you can refer to a key anywhere in your document. By convention, simply number the keys. You "join" the url to the clickable text by appending another set of square brackets with the key, then setting up the key elsewhere in your document.
+
+For example:
+
+If you are interested checking out Jon Crowell's public commits, explore his [vast array of repos][1].
+
+Another benefit of using the key is that you can refer to the url multiple times in your document. Remember to [check out Jon's repos][1] at your leisure.
+
+[1]: https://github.com/jonrcrowell?tab=repositories
