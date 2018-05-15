@@ -229,7 +229,7 @@ Use the greater than symbol (**>**) prefix to create a block quote.
 
 > Ancora imparo. (_I am still learning._)
 >
-> -- **Michaelangelo**, when he was 87
+> — **Michaelangelo**, when he was 87
 
 ## Code Blocks
 
@@ -239,7 +239,7 @@ With indentation:
 
     const dufus = "Homer";
     const beer = "Duffs";
-    const add = (a, b) => { a + b };
+    function add(a,b) { return a + b; };
 
 And with back-ticks, specifying js as the language:
 
