@@ -108,7 +108,7 @@ Picture with alternate text:
 
 ![Sweet Picture](http://unsplash.it/500/500?random)
 
-Picture with both alternate text and a tooltip:
+Picture with both alternate text and a tooltip. Hover over the image to see the tooltip.
 
 ![Sweet Picture](http://unsplash.it/500/500?random "This is a tooltip for this picture")
 
@@ -162,19 +162,19 @@ You can create nested lists by tabbing or spacing a bullet to the right. Markdow
 _Only 8 countries have ever won the World Cup_
 
 * 5 Time Winners
-  * Brazil
+  * Brazil (1958, 1962, 1970, 1994, 2002)
 * 4 Time Winners
-  * Germany
-  * Italy
+  * Germany (1954, 1974, 1990, 2014)
+  * Italy (1934, 1938, 1982, 2006)
 * 3 Time Winners
   * Nobody at the moment
 * 2 Time Winners
-  * Uruguay
-  * Argentina
+  * Uruguay (1930, 1950)
+  * Argentina (1978, 1986)
 * 1 Time Winners
-  * England
-  * France
-  * Spain
+  * England (1966)
+  * France (1998)
+  * Spain (2010)
 
 Ordered lists work the way you'd expect them to for the most part, although one really nice feature is that you don't have to specify the order, which means inserting new items or re-ording them is painless. Simply prefix each line by a number, conventionally **1.** and Markdown will take care of the rest.
 
@@ -184,6 +184,7 @@ Ordered lists work the way you'd expect them to for the most part, although one 
 
 1.  Zico
 2.  Pele
+19. Ronaldo Fenômeno
 3.  Maradona
 4.  Eusebio
 5.  Puskas
@@ -195,6 +196,19 @@ Ordered lists work the way you'd expect them to for the most part, although one 
 11. Rivelino
 12. Platini
 13. Zidane
+14. Jairzinho
+15. Gerson
+16. George Best
+17. Francescoli
+18. Cruyff
+19. Henry
+20. Maldini
+21. Dasayev
+22. di Stefano
+23. Banks
+24. Buffon
+25. Baggio
+
 
 *And no, Beckham doesn't deserve to be on this list, so please don't ask.*
 _I'm also aware that Zico is not usually number 1, but it's my list._
