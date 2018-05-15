@@ -1,5 +1,26 @@
 # Markdown Cheatsheet
 
+- [Markdown Cheatsheet](#markdown-cheatsheet)
+    - [Bold and Italics](#bold-and-italics)
+    - [Strikethrough](#strikethrough)
+    - [Headers](#headers)
+- [This is an H1](#this-is-an-h1)
+    - [This is an H2](#this-is-an-h2)
+        - [This is an H3](#this-is-an-h3)
+            - [This is an H4](#this-is-an-h4)
+                - [This is an H5](#this-is-an-h5)
+    - [Links](#links)
+    - [Images](#images)
+        - [Linking thumbnails to full-size images](#linking-thumbnails-to-full-size-images)
+    - [Lists, nesting, bullets and numbers](#lists--nesting--bullets-and-numbers)
+        - [Unordered List: World Cup Winners](#unordered-list--world-cup-winners)
+        - [Ordered List: Greatest players of all time](#ordered-list--greatest-players-of-all-time)
+    - [Horizontal Rules](#horizontal-rules)
+    - [Block Quotes](#block-quotes)
+    - [Code Blocks](#code-blocks)
+    - [Tables](#tables)
+    - [Check Boxes (Github flavored markdown)](#check-boxes-github-flavored-markdown)
+
 Text entered on multiple lines in your editor will appear on a single line in your markdown doc. You must entered two carriage returns for markdown to create a new paragraph.
 
 For example, the words "one", "two", "three", and "four" below are entered on separate lines in the text editor, but they appear on a single line in markdown:
@@ -19,13 +40,13 @@ three
 
 four
 
-### Bold and Italics
+## Bold and Italics
 
 Surrounding text with asterisks or underscores will _italicize_ or **bold** the text. A single _asterisk_ or _underscore_ on either side of the text will italicize it, and two **asterisks** or **underscores** on either side bolds the text.
 
 This can be confusing. I follow a convention suggested by Wes Bos, and that is to always use **double asterisks** for bold and _single underscores_ for italic.
 
-### Strikethrough
+## Strikethrough
 
 Surround text with ~~double tildes~~ for strikethrough.
 
@@ -132,7 +153,7 @@ Best teams of all time:
 
 You can create nested lists by tabbing or spacing a bullet to the right. Markdown processors will vary the bullets between different levels.
 
-### World Cup Winners
+### Unordered List: World Cup Winners
 
 _Only 8 countries have ever won the World Cup_
 
@@ -153,7 +174,7 @@ _Only 8 countries have ever won the World Cup_
 
 Ordered lists work the way you'd expect them to for the most part, although one really nice feature is that you don't have to specify the order, which means inserting new items or re-ording them is painless. Simply prefix each line by a number, conventionally **1.** and Markdown will take care of the rest.
 
-### Greatest players of all time
+### Ordered List: Greatest players of all time
 
 1.  Zico
 2.  Pele
