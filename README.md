@@ -1,7 +1,5 @@
 # Markdown Cheatsheet
 
-# Markdown Cheatsheet
-
 Text entered on multiple lines in your editor will appear on a single line in your markdown doc. You must entered two carriage returns for markdown to create a new paragraph.
 
 For example, the words "one", "two", "three", and "four" below are entered on separate lines in the text editor, but they appear on a single line in markdown:
