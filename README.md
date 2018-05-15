@@ -213,7 +213,7 @@ Create a horizontal rule with three or more hyphens, asterisks, or underscores o
 
 Use the greater than symbol (**>**) prefix to create a block quote.
 
-> Ancora amparo. (_I am still learning._)
+> Ancora imparo. (_I am still learning._)
 >
 > -- **Michaelangelo**, when he was 87
 
