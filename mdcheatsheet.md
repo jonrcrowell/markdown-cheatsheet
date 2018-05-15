@@ -252,23 +252,23 @@ The last row is included to show that the headers follow the same alignment rule
 
 ## Check Boxes (Github flavored markdown)
 
-Github flavored markdown includes the ability to add checked or unchecked boxes. Add square brackets with a space between them at the beginning of a line to indicate an unchecked box, and replace the space with an `x` to indicate a checked box.
+Github flavored markdown includes the ability to add checked or unchecked boxes. Prefix a line with `- [ ]` to indicate an unchecked box, and `- [x]` to indicate a checked box.
 
 Grocery List:
 
-[ ] Eggs
+- [ ] Eggs
 
-[x] Coffee
+- [x] Coffee
 
-[ ] Milk
+- [ ] Milk
 
-[x] Ribeyes
+- [x] Ribeyes
 
-[ ] Bacon
+- [ ] Bacon
 
-[ ] Onions
+- [ ] Onions
 
-[ ] Garlic
+- [ ] Garlic
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
