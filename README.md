@@ -12,9 +12,11 @@
     - [Links](#links)
     - [Images](#images)
         - [Linking thumbnails to full-size images](#linking-thumbnails-to-full-size-images)
-    - [Lists, nesting, bullets and numbers](#lists--nesting--bullets-and-numbers)
-        - [Unordered List: World Cup Winners](#unordered-list--world-cup-winners)
-        - [Ordered List: Greatest players of all time](#ordered-list--greatest-players-of-all-time)
+    - [Unordered and Ordered Lists](#unordered-and-ordered-lists)
+        - [Unordered List](#unordered-list)
+            - [World Cup Winners](#world-cup-winners)
+        - [Ordered List](#ordered-list)
+            - [Greatest players of all time](#greatest-players-of-all-time)
     - [Horizontal Rules](#horizontal-rules)
     - [Block Quotes](#block-quotes)
     - [Code Blocks](#code-blocks)
@@ -132,7 +134,7 @@ Note that you can also use normal markdown inside of the alt-text brackets if yo
 
 [<img alt="Cross on mountain: click to see larger" src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/750/750?image=1000)
 
-## Lists, nesting, bullets and numbers
+## Unordered and Ordered Lists
 
 Unordered lists can be created by prefixing your lines of text with a hyphen, a plus sign, or an asterisk. I used a hyphen as a prefix for these soccer teams, but when I saved my file, prettier or some other plugin converted them to asterisks, which is fine with me.
 
@@ -153,7 +155,9 @@ Best teams of all time:
 
 You can create nested lists by tabbing or spacing a bullet to the right. Markdown processors will vary the bullets between different levels.
 
-### Unordered List: World Cup Winners
+### Unordered List
+
+#### World Cup Winners
 
 _Only 8 countries have ever won the World Cup_
 
@@ -174,7 +178,9 @@ _Only 8 countries have ever won the World Cup_
 
 Ordered lists work the way you'd expect them to for the most part, although one really nice feature is that you don't have to specify the order, which means inserting new items or re-ording them is painless. Simply prefix each line by a number, conventionally **1.** and Markdown will take care of the rest.
 
-### Ordered List: Greatest players of all time
+### Ordered List
+
+#### Greatest players of all time
 
 1.  Zico
 2.  Pele
