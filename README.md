@@ -296,7 +296,7 @@ And with back-ticks, specifying js as the language:
     };
     ```
 ```
-Resutling in nicely formatted code in the language specified:
+Resulting in nicely formatted code in the language specified:
 ```js
 const dufus = "Homer";
 const beer = "Duffs";
