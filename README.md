@@ -4,11 +4,12 @@
     - [Bold and Italics](#bold-and-italics)
     - [Strikethrough](#strikethrough)
     - [Headers](#headers)
-- [This is an H1](#this-is-an-h1)
-    - [This is an H2](#this-is-an-h2)
-        - [This is an H3](#this-is-an-h3)
-            - [This is an H4](#this-is-an-h4)
-                - [This is an H5](#this-is-an-h5)
+- [This is an h1](#this-is-an-h1)
+    - [This is an h2](#this-is-an-h2)
+        - [This is an h3](#this-is-an-h3)
+            - [This is an h4](#this-is-an-h4)
+                - [This is an h5](#this-is-an-h5)
+                    - [This is an h6](#this-is-an-h6)
     - [Links](#links)
     - [Images](#images)
         - [Linking thumbnails to full-size images](#linking-thumbnails-to-full-size-images)
@@ -22,6 +23,7 @@
     - [Code Blocks](#code-blocks)
     - [Tables](#tables)
     - [Check Boxes (Github flavored markdown)](#check-boxes-github-flavored-markdown)
+    - [Keys with urls used elsewhere in the document should be set up in the following format:](#keys-with-urls-used-elsewhere-in-the-document-should-be-set-up-in-the-following-format)
 
 Text entered on multiple lines in your editor will appear on a single line in your markdown doc. You must entered two carriage returns for markdown to create a new paragraph.
 
@@ -48,31 +50,65 @@ Surrounding text with asterisks or underscores will _italicize_ or **bold** the 
 
 This can be confusing. I follow a convention suggested by Wes Bos, and that is to always use **double asterisks** for bold and _single underscores_ for italic.
 
+```md
+_italicize_ or **bold**
+```
+
 ## Strikethrough
 
 Surround text with ~~double tildes~~ for strikethrough.
 
+```md
+Surround text with ~~double tildes~~ for strikethrough.
+```
+
 ## Headers
 
-Starting a line with one or more hashes will create headers. One hash "#" followed by a space and text creates an H1, two hashes for an H2 and so on.
+Starting a line with one or more hashes will create headers. One hash "#" followed by a space and text creates an h1, two hashes for an h2 and so on.
 
 Examples:
 
-# This is an H1
+# This is an h1
 
-## This is an H2
+```md
+# This is an h1
+```
 
-### This is an H3
+## This is an h2
 
-#### This is an H4
+```md
+## This is an h2
+```
 
-##### This is an H5
+### This is an h3
+
+```md
+### This is an h3
+```
+
+#### This is an h4
+
+```md
+#### This is an h4
+```
+
+##### This is an h5
+
+```md
+##### This is an h5
+```
+
+###### This is an h6
+
+```md
+###### This is an h6
+```
 
 Note that you do **_not_** need two carriage returns after a header to begin a paragraph on the next line.
 
 Also note that the H1 has a horizontal rule underneath it.
 
-And what I think is my final note regarding headers: you can create an H1 and and H2 by using double-underscores (the equals sign) for an H1 and underscores (the underscore sign, naturally) for an H2. You need to underline the header with at least 3 of these charaters to get it to work. I recommend not using this method to create headers -- use the hash instead, as it works for headers of all weights.
+And what I think is my final note regarding headers: you can create an h1 and and H2 by using double-underscores (the equals sign) for an h1 and underscores (the underscore sign, naturally) for an h2. You need to underline the header with at least 3 of these charaters to get it to work. I recommend not using this method to create headers -- use the hash instead, as it works for headers of all weights.
 
 ## Links
 
@@ -80,9 +116,17 @@ Turning any url into a clickable link is easy. Just wrap it in angle brackets.
 
 http://www.stonegiantstudio.com
 
+```md
+<http://www.stonegiantstudio.com>
+```
+
 If you want to create a link that has clickable descriptive text, put the text in square brackets before the link in parens.
 
 [A plethora of technical questions and answers](http://stackoverflow.com)
+
+```md
+[A plethora of technical questions and answers](http://stackoverflow.com)
+```
 
 _Did you say "plethora" jefe?_
 
@@ -243,6 +287,16 @@ With indentation:
 
 And with back-ticks, specifying js as the language:
 
+```md
+    ```js
+    const dufus = "Homer";
+    const beer = "Duffs";
+    function add(a, b) {
+    return a + b;
+    };
+    ```
+```
+Resutling in nicely formatted code in the language specified:
 ```js
 const dufus = "Homer";
 const beer = "Duffs";
@@ -313,3 +367,10 @@ Grocery List:
 
 [1]: https://github.com/jonrcrowell?tab=repositories
 [2]: http://unsplash.it/500/500?image=101
+
+## Keys with urls used elsewhere in the document should be set up in the following format:
+
+```md
+[1]: https://github.com/jonrcrowell?tab=repositories
+[2]: http://unsplash.it/500/500?image=101
+```
