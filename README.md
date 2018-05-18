@@ -275,6 +275,10 @@ Use the greater than symbol (**>**) prefix to create a block quote.
 >
 > — **Michaelangelo**, when he was 87
 
+    > Ancora imparo. (_I am still learning._)
+    >
+    > — **Michaelangelo**, when he was 87
+
 ## Code Blocks
 
 You can create a code block with either indentation or with back-ticks.
@@ -318,6 +322,12 @@ const x = 100;
 - const y = 200;
 + const y = 300;
 ```
+
+    ```diff
+    const x = 100;
+    - const y = 200;
+    + const y = 300;
+    ```
 
 ## Tables
 
