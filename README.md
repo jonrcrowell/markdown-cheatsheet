@@ -216,9 +216,9 @@ You can create nested lists by tabbing or spacing a bullet to the right. Markdow
 - 2 Time Winners
   - Uruguay (1930, 1950)
   - Argentina (1978, 1986)
+  - France (1998, 2018)
 - 1 Time Winners
   - England (1966)
-  - France (1998)
   - Spain (2010)
 
 Ordered lists work the way you'd expect them to for the most part, although one really nice feature is that you don't have to specify the order, which means inserting new items or re-ording them is painless. Simply prefix each line by a number, conventionally **1.** and Markdown will take care of the rest.
@@ -228,31 +228,31 @@ Ordered lists work the way you'd expect them to for the most part, although one 
 #### Greatest players of all time
 
 1. Zico
-1. Pele
-1. Ronaldo Fenômeno
-1. Maradona
-1. Eusebio
-1. Puskas
-1. Messi
-1. Cristiano Ronaldo
-1. Ronaldinho
-1. Garrincha
-1. Beckenbauer
-1. Rivelino
-1. Platini
-1. Zidane
-1. Jairzinho
-1. Gerson
-1. George Best
-1. Francescoli
-1. Cruyff
-1. Henry
-1. Maldini
-1. Dasayev
-1. di Stefano
-1. Banks
+2. Pele
+3. Ronaldo Fenômeno
+4. Maradona
+5. Eusebio
+6. Puskas
+7. Messi
+8. Cristiano Ronaldo
+9. Ronaldinho
+10. Garrincha
+11. Beckenbauer
+12. Rivelino
+13. Platini
+14. Zidane
+15. Jairzinho
+16. Gerson
+17. George Best
+18. Francescoli
+19. Cruyff
+20. Henry
+21. Maldini
+22. Dasayev
+23. di Stefano
+24. Banks
 1. Buffon
-1. Baggio
+2. Baggio
 
 *And no, Beckham doesn't deserve to be on this list.*
 
