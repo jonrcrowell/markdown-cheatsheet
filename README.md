@@ -200,6 +200,9 @@ Best teams of all time:
 
 You can create nested lists by tabbing or spacing a bullet to the right. Markdown processors will vary the bullets between different levels.
 
+Line breaks can be added with a double-space at the end of a line.  
+Let's see if this actually works. It does! (There is a double-space at the end of the line above.)
+
 ### Unordered List
 
 #### World Cup Winners
